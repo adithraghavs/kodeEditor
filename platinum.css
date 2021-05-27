@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+
+.editor,
+.output {
+  height: 60vh;
+}
+
+.kodeEditor {
+  position: relative;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: column;
+  border: 1px solid black;
+}
+
+/* @media (max-width:500px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column !important;
+  }
+} */
+
+.run-button,
+.stop-button {
+  height: 40px;
+  width: 90px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  position: absolute;
+  left: 5%;
+  top: 8%;
+  z-index: 4;
+  font-size: large;
+  font-family: 'Jost', sans-serif;
+  /* margin-top: -65px !important; */
+  background-color: green;
+  transform: translateX(-50%);
+  animation: pagination 1s ease 0s infinite;
+}
+.logo {
+  height: 50px;
+  width: 100px;
+  border: none;
+  position: absolute;
+  top: 10px;
+  left: 5%;
+  transform: translateX(-50%);
+  animation: pagination 1s ease 0s infinite;
+  font-family: "Jost", sans-serif;
+}
+.logs {
+  width: 100%;
+  color: #000;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+}

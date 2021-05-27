@@ -1,0 +1,12 @@
+Use jsDelivr CDN to use kodeEditor!
+jsDelivr links required: https://cdn.jsdelivr.net/gh/adithraghavs/kodeEditor/platinum.js
+and
+https://cdn.jsdelivr.net/gh/adithraghavs/kodeEditor/platinum.css
+To use kodeEditor, you need to use the following links in your <head> tag:
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@s524797336/skulpt@1.0.3/skulpt.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@s524797336/skulpt@1.0.3/skulpt-stdlib.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js" integrity="sha512-GZ1RIgZaSc8rnco/.    8CXfRdCpDxRCphenIiZ2ztLy3XQfCbQUSCuk8IudvNHxkRA3oUg6q0qejgN/qqyG1duv5Q==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.11/ext-language_tools.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/adithraghavs/kodeEditor/platinum.css">
+<script src="https://cdn.jsdelivr.net/gh/adithraghavs/kodeEditor/platinum.js" defer></script>
